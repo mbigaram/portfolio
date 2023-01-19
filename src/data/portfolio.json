@@ -1,0 +1,32 @@
+{
+   "portfolio": [
+    {
+        "cover": "/portfolio/1/landing-page-img.png",
+        "title": "UpFour",
+        "description": "HTML, CSS",
+        "url":"https://ubiquitous-biscotti-9fc117.netlify.app/"
+
+    },
+    {
+        "cover": "/portfolio/1/bungalow-beatles-img.png",
+        "title": "Bungalow Beatles",
+        "description": "JS, CSS, HTML",
+        "url":"https://bungalow-beatles.surge.sh/"
+
+    },
+    {
+        "cover": "/portfolio/1/rocket-shopping-img.png",
+        "title": "Rocket Shopping",
+        "description": "React.js",
+        "url":"https://rocket-shopping.surge.sh/"
+
+    },
+    {
+        "cover": "/portfolio/1/mb-pokedex-img.png",
+        "title": "Pokedex",
+        "description": "React.js, API",
+        "url":"https://pk-mbigaram.surge.sh/"
+
+    }
+   ] 
+}

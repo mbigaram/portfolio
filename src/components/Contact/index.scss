@@ -1,0 +1,73 @@
+.contact-social {
+    font-size: 13px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 300;
+    list-style-type: none; 
+    max-width: fit-content;
+    animation: pulse 1s;
+    &:nth-of-type(1) {
+      animation-delay: 1.1s;
+    }
+    &:nth-of-type(2) {
+      animation-delay: 1.2s;
+    }
+    &:nth-of-type(3) {
+      animation-delay: 1.3s;
+    }
+    &:nth-of-type(4) {
+      animation-delay: 1.4s;
+    }
+    &:nth-of-type(5) {
+      animation-delay: 1.5s;
+    }
+  }
+
+  .flex{
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+     
+  }
+  .anchor-icon-contact{
+    color: #ffd700;
+    width: 25px;
+    height: auto;
+  }
+  .anchor-icon {
+    width: 30px;
+    height: auto;
+  }
+  .anchor-icon-by {
+    width: 300px;
+    height: auto;
+  }
+
+  .love-coffee{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    :hover{
+        max-width: fit-content;
+        animation: pulse 1s;
+    }
+    
+  }
+
+  .by-zone{
+    display: flex;
+    flex-direction: column;
+   top: 0;
+   padding-top: 10%;    
+   position: absolute;
+   right: 100px;
+   color: #8d8d8d;   
+   font-size: 20px;
+   font-family: sans-serif;
+   letter-spacing: 5px;
+   animation: fadeIn 1s 1.8s backwards;
+}
+
+  
