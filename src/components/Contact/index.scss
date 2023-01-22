@@ -70,4 +70,15 @@
    animation: fadeIn 1s 1.8s backwards;
 }
 
+@media screen and (max-width: 1200px)
+{
+  
+  .by-zone {
+    width: 100%;
+    margin-top:  320px;
+    left: 10px;
+  }
+
+}
+
   

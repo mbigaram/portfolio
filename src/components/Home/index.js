@@ -18,30 +18,7 @@ const Home = () => {
 
   const nameArray = ['a', 'r', 'c', 'e', 'l', 'o', ' ']
   const fullNameArray = ['i', 'g', 'a', 'r', 'a', 'm,']
-  const jobArray = [
-    's',
-    'o',
-    'u',
-    ' ',
-    'd',
-    'e',
-    's',
-    'e',
-    'n',
-    'v',
-    'o',
-    'l',
-    'v',
-    'e',
-    'd',
-    'o',
-    'r',
-    ' ',
-    'w',
-    'e',
-    'b',
-    '.'
-  ]
+  const jobArray = ['s','o','u',' ','d','e','s','e','n','v','o','l','v','e','d','o','r',' ','w','e','b','.']
 
   return (
     <>
@@ -63,24 +40,31 @@ const Home = () => {
             <span> </span>
             <span className={`${letterClass} _21`}>é</span>
             <br />
+            <div className="salt-line">
+              <div>
             <img src={LogoTitle} alt="developer" />
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
               idx={22}
             />
+            </div>
+            <div>
             <img className="biga" src={LogoB} alt="developer" />
             <AnimatedLetters
               letterClass={letterClass}
               strArray={fullNameArray}
               idx={22}
             />
-            <br />
+            </div>
+            </div>
+            <div>
             <AnimatedLetters
               letterClass={letterClass}
               strArray={jobArray}
               idx={27}
             />
+            </div>
           </h1>
           <h2>Desenvolvedor Full Stack</h2>
           <Link to="/contact" className="flat-button">
